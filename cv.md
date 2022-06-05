@@ -15,3 +15,34 @@ I am 24 years old and I work as a veterinarian. Unfortunately, in my country, th
   - get along with people
   - I continue to study...
 ---
+## Skills
+* HTML
+* CSS (Basic)
+* JavaScript (Basic)
+* Git/GitHub (Basic)
+* Figma (Basic)
+* VS Code (Basic)
+* Chrome DevTools (Basic)
+---
+## Code Examples
+```
+// takes both a string and a character as input, and returns 
+// a new string that has the passed character removed in all its positions.
+const filterString  = (str, sym) => {
+let i = 0;
+let result = '';
+
+while (i < str.length) {
+  if (str[i] !== sym) {
+    result = `${result}${str[i]}`;
+    i += 1;
+  }
+ 
+  if (str[i] === sym) {
+    i += 1;
+  }
+}
+  return result;
+};
+```
+---
