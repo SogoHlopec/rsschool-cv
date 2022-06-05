@@ -46,3 +46,23 @@ while (i < str.length) {
 };
 ```
 ---
+## Experience
+* [Project_01_Resume_Web](https://sogohlopec.github.io/Project_01_Resume_Web/)
+* [Poject_02_Landing_Veterinary](https://sogohlopec.github.io/Poject_02_Landing_Veterinary/)
+---
+## Education
+* Courses
+  - [Hexlet: introduction to programming](https://ru.hexlet.io/courses/introduction_to_programming)
+  - [Hexlet: Introduction to web development](https://ru.hexlet.io/courses/intro_to_web_development)
+  - [Hexlet: Basics of modern layout](https://ru.hexlet.io/courses/layout-designer-basics)
+  - [Code Basics: HTML for beginners](https://ru.code-basics.com/languages/html)
+  - [Code Basics: CSS for beginners](https://ru.code-basics.com/languages/css)
+  - [Code Basics: JavaScript for beginners](https://ru.code-basics.com/languages/javascript)
+  - [FLEXBOX FROGGY](https://flexboxfroggy.com/#ru)
+  - [LearnGitBranching](https://learngitbranching.js.org/?locale=ru_RU)
+---
+## Languages
+* Belarusian native speaker
+* Russian native speaker
+* Ukrainian B1
+* English A1
