@@ -1,1 +1,1 @@
-https://sogohlopec.github.io/rsschool-cv/cv
+https://sogohlopec.github.io/rsschool-cv/
