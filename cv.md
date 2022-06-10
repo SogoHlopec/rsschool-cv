@@ -1,4 +1,4 @@
-# Yury Deineka
+# Yury Daineka
 ---
 ## Contacts
 * E-mail: sogo246@gmail.com
