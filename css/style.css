@@ -62,6 +62,7 @@ body {
 
 .section-link:hover {
   text-decoration: underline;
+  color: #000000;
 }
 
 .pre {
