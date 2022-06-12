@@ -47,6 +47,38 @@ body {
   text-decoration: underline;
 }
 
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.section-profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    text-transform: uppercase;
+}
+
+.title {
+  margin: 10px;
+  border-bottom: 1px solid #000000;
+  font-size: 32px;
+}
+
+.subtitle-profile {
+  margin: 0;
+  font-size: ;
+  text-align: center;
+}
+
+.profile-logo {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .subtitle {
   color: #fab009;
 }
@@ -55,6 +87,7 @@ body {
   margin: 0;
   margin-bottom: 10px;
 }
+
 .section-link {
   text-decoration: none;
   color: #fab009;
