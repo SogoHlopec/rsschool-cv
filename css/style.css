@@ -20,6 +20,7 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .header {
@@ -43,5 +44,22 @@ body {
 }
 
 .nav-link:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  color: #fab009;
+}
+
+.section-item {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.section-link {
+  text-decoration: none;
+  color: #fab009;
+}
+
+.section-link:hover {
   text-decoration: underline;
 }
