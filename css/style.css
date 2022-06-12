@@ -63,3 +63,8 @@ body {
 .section-link:hover {
   text-decoration: underline;
 }
+
+.pre {
+  margin: 0;
+  padding: 0;
+}

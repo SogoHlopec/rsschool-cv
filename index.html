@@ -71,6 +71,23 @@
       </section>
       <section class="section" id="code-examples">
         <h2 class="subtitle">Code-examples</h2>
+        <pre class="pre">
+          <code>  const filterString = (str, sym) => {
+              let i = 0;
+              let result = '';
+            
+              while (i < str.length) { 
+                if (str[i] !==sym) {
+                  result=`${result}${str[i]}`;
+                  i +=1; 
+                }
+                if (str[i]===sym) {
+                  i +=1;
+                } 
+              }
+              return result;
+            };</code>
+      </pre>
       </section>
       <section class="section" id="projects">
         <h2 class="subtitle">Projects</h2>
