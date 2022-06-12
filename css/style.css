@@ -51,6 +51,7 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 30px;
+  border-bottom: 2px solid #000000;
 }
 
 .section-profile-title {
