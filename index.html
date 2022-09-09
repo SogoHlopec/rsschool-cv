@@ -4,18 +4,145 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yury Daineka</title>
+  <title>Yury Deineka CV</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sit eaque unde labore architecto autem possimus. Nobis maxime sequi architecto pariatur. Sequi, dignissimos quasi voluptas enim ullam totam saepe sapiente.
+  <header class="header">
+    <nav class="container">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#about-me" class="nav-link">About Me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code-examples" class="nav-link">Code Examples</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veritatis repellendus nemo officia ab dignissimos odit distinctio necessitatibus debitis, provident, architecto atque corrupti quis asperiores sit soluta, quaerat quos modi!
-    Incidunt quaerat, laboriosam mollitia ut exercitationem aut distinctio totam, deserunt dolores recusandae placeat. Atque ratione esse magni? Minima ut laboriosam error, necessitatibus doloribus voluptatem nulla corrupti, corporis molestiae, placeat harum!
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        <img src="assets/img/photo.jpg" class="profile-logo" alt="photo Yury Deineka">
+        <div class="section-profile-title">
+          <h1 class="title">Yury Deineka</h1>
+          <p class="subtitle-profile">Junior Front-End Developer</p>
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="subtitle">Contacts</h2>
+        <ul>
+          <li class="section-item">E-mail: <a class="section-link" href="mailto:sogo246@gmail.com">sogo246@gmail.com</a>
+          </li>
+          <li class="section-item">GitHub: <a class="section-link" href="https://github.com/SogoHlopec">SogoHlopec</a>
+          </li>
+          <li class="section-item">Telegram: <a class="section-link" href="https://t.me/hlope_c">@hlope_c</a></li>
+          <li class="section-item">Discord: <a class="section-link" href="">Sogo#9213</a></li>
+        </ul>
+      </section>
+      <section class="section" id="about-me">
+        <h2 class="subtitle">About-me</h2>
+        <p>I am 24 years old and I work as a veterinarian. Unfortunately, in my country, the veterinary service has a
+          weak
+          digitalization. My goal: to introduce IT technologies into the veterinary service in order to improve the
+          quality of
+          customer service and make the work of veterinarians easier! That's why I want to become a front-end developer.
+        </p>
+        <p>My strengths:</p>
+        <ul>
+          <li class="section-item">ability to focus on a task</li>
+          <li class="section-item">responsible</li>
+          <li class="section-item">ability to prioritize</li>
+          <li class="section-item">get along with people</li>
+          <li class="section-item">I continue to study...</li>
+        </ul>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="subtitle">Skills</h2>
+        <ul>
+          <li class="section-item">HTML</li>
+          <li class="section-item">CSS (Basic)</li>
+          <li class="section-item">JavaScript (Basic)</li>
+          <li class="section-item">Git/GitHub (Basic)</li>
+          <li class="section-item">Figma (Basic)</li>
+          <li class="section-item">VS Code (Basic)</li>
+          <li class="section-item">Chrome DevTools (Basic)</li>
+        </ul>
+      </section>
+      <section class="section" id="code-examples">
+        <h2 class="subtitle">Code-examples</h2>
+        <pre class="pre">
+          <code>  const filterString = (str, sym) => {
+              let i = 0;
+              let result = '';
+            
+              while (i &lt; str.length) { 
+                if (str[i] !==sym) {
+                  result=`${result}${str[i]}`;
+                  i +=1; 
+                }
+                if (str[i]===sym) {
+                  i +=1;
+                } 
+              }
+              return result;
+            };</code>
+      </pre>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="subtitle">Projects</h2>
+        <ul>
+          <li class="section-item"><a class="section-link"
+              href="https://sogohlopec.github.io/Project_01_Resume_Web/">Project_01_Resume_Web</a></li>
+          <li class="section-item"><a class="section-link"
+              href="https://sogohlopec.github.io/Poject_02_Landing_Veterinary/">Poject_02_Landing_Veterinary</a></li>
+        </ul>
+      </section>
+      <section class="section" id="courses">
+        <h2 class="subtitle">Courses</h2>
+        <ul>
+          <li class="sextion-item"><a href="https://ru.hexlet.io/courses/introduction_to_programming"
+              class="section-link">Hexlet: introduction to programming</a></li>
+          <li class="sextion-item"><a href="https://ru.hexlet.io/courses/intro_to_web_development"
+              class="section-link">Hexlet: Introduction to web development</a></li>
+          <li class="sextion-item"><a href="https://ru.hexlet.io/courses/layout-designer-basics"
+              class="section-link">Hexlet: Basics of modern layout</a></li>
+          <li class="sextion-item"><a href="https://ru.code-basics.com/languages/html" class="section-link">Code Basics:
+              HTML for beginners</a></li>
+          <li class="sextion-item"><a href="https://ru.code-basics.com/languages/css" class="section-link">Code Basics:
+              CSS for beginners</a></li>
+          <li class="sextion-item"><a href="https://ru.code-basics.com/languages/javascript" class="section-link">Code
+              Basics: JavaScript for beginners</a></li>
+          <li class="sextion-item"><a href="https://flexboxfroggy.com/#ru" class="section-link">FLEXBOX FROGGY</a></li>
+          <li class="sextion-item"><a href="https://learngitbranching.js.org/?locale=ru_RU"
+              class="section-link">LearnGitBranching</a></li>
+        </ul>
+      </section>
+      <section class="section section-education" id="education">
+        <h2 class="subtitle">Education</h2>
+        <p>Vitebsk State Academy of Veterinary Medicine</p>
+      </section>
+      <section class="section section-languages" id="languages">
+        <h2 class="subtitle">Languages</h2>
+        <ul>
+          <li class="section-item">Belarusian native speaker</li>
+          <li class="section-item">Russian native speaker</li>
+          <li class="section-item">Ukrainian B1</li>
+          <li class="section-item">English A1</li>
+        </ul>
+      </section>
+    </div>
   </main>
-  <footer>
-    Lorem, ipsum dolor.
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>
+        2022
+        <a class="footer-link" href="https://github.com/SogoHlopec">SogoHlopec</a>
+      </div>
+      <a class="rss-logo" href="https://rs.school/js/"></a>
+    </div>
   </footer>
 </body>
 </html>
