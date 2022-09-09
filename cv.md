@@ -17,7 +17,7 @@ I am 24 years old and I work as a veterinarian. Unfortunately, in my country, th
 ---
 ## Skills
 * HTML
-* CSS (Basic)
+* CSS
 * JavaScript (Basic)
 * Git/GitHub (Basic)
 * Figma (Basic)
