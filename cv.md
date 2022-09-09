@@ -17,12 +17,11 @@ I am 24 years old and I work as a veterinarian. Unfortunately, in my country, th
 ---
 ## Skills
 * HTML
-* CSS (Basic)
+* CSS 
 * JavaScript (Basic)
 * Git/GitHub (Basic)
 * Figma (Basic)
 * VS Code (Basic)
-* Chrome DevTools (Basic)
 ---
 ## Code Examples
 ```
@@ -47,19 +46,19 @@ while (i < str.length) {
 ```
 ---
 ## Experience
-* [Project_01_Resume_Web](https://sogohlopec.github.io/Project_01_Resume_Web/)
-* [Poject_02_Landing_Veterinary](https://sogohlopec.github.io/Poject_02_Landing_Veterinary/)
+* [Travel Portal](https://sogohlopec.github.io/RSS_Travel/)
+* [Momentum](https://rolling-scopes-school.github.io/sogohlopec-JSFEPRESCHOOL2022Q2/momentum/)
+* [Eldritch](https://rolling-scopes-school.github.io/sogohlopec-JSFEPRESCHOOL2022Q2/eldritch-codejam/)
 ---
 ## Education
 * Courses
+  - [THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2](https://app.rs.school/certificate/xc1jcw36)
   - [Hexlet: introduction to programming](https://ru.hexlet.io/courses/introduction_to_programming)
   - [Hexlet: Introduction to web development](https://ru.hexlet.io/courses/intro_to_web_development)
   - [Hexlet: Basics of modern layout](https://ru.hexlet.io/courses/layout-designer-basics)
   - [Code Basics: HTML for beginners](https://ru.code-basics.com/languages/html)
   - [Code Basics: CSS for beginners](https://ru.code-basics.com/languages/css)
   - [Code Basics: JavaScript for beginners](https://ru.code-basics.com/languages/javascript)
-  - [FLEXBOX FROGGY](https://flexboxfroggy.com/#ru)
-  - [LearnGitBranching](https://learngitbranching.js.org/?locale=ru_RU)
 ---
 ## Languages
 * Belarusian native speaker
