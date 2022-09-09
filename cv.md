@@ -22,7 +22,6 @@ I am 24 years old and I work as a veterinarian. Unfortunately, in my country, th
 * Git/GitHub (Basic)
 * Figma (Basic)
 * VS Code (Basic)
-* Chrome DevTools (Basic)
 ---
 ## Code Examples
 ```
